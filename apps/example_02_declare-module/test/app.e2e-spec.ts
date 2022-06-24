@@ -1,7 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { INestApplication } from '@nestjs/common';
 import * as request from 'supertest';
-import { Example02EclareModuleModule } from './../src/example_02_eclare-module.module';
+import { Example02EclareModuleModule } from '../src/example_02_eclare-module.module';
 
 describe('Example02EclareModuleController (e2e)', () => {
   let app: INestApplication;
